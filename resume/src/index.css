@@ -11,3 +11,7 @@
         duration-300;
   }
 }
+
+.active {
+  color: white;
+}
