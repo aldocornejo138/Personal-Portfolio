@@ -9,6 +9,7 @@ export const LeftBanner = () => {
       "Professional coder.",
       "Full Stack Developer.",
       "Automation Developer (SDET).",
+      "TSLA BULL!!!!.",
     ],
     loop: true,
     typeSpeed: 20,
@@ -32,9 +33,11 @@ export const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding through each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
+          hic conseqununat repelllends ad.Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Atque soluta hic conseqununat repelllends ad.Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Atque soluta hic
+          conseqununat repelllends ad.
         </p>
       </div>
       <div className="flex justify-between">
