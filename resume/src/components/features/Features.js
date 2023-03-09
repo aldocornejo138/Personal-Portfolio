@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe, FaBars } from "react-icons/fa";
+import { FaMobile, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
 import Title from "../layouts/Title";
 import Card from "./Card";
@@ -18,7 +18,6 @@ const Features = () => {
           title="Business Strategy"
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic conseqununat repelllends ad."
-          icon={<FaBars />}
         />
         <Card
           title="App Development"
