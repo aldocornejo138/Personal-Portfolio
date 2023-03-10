@@ -9,7 +9,6 @@ export const LeftBanner = () => {
       "Professional coder.",
       "Full Stack Developer.",
       "Automation Developer (SDET).",
-      "TSLA BULL!!!!.",
     ],
     loop: true,
     typeSpeed: 20,
