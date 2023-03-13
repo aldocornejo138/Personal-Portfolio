@@ -18,14 +18,40 @@ const Projects = () => {
       <div className="grid grid-cols-3 gap-14 ">
         <ProjectsCard
           title="SOCIAL MEDIA CLONE"
-          des="Lorem, ipsum dolor sit amet consectetur adidossing elit Explicabo qisnsn voludptate sopiente.volutpiotinsus jafrum quidem!"
+          des="Lorem, ipsum dolor sit amet consectetur adidossing 
+          elit Explicabo qisnsn voludptate sopiente.volutpiotinsus jafrum quidem!"
           src={projectOne}
         />
-        <ProjectsCard />
-        <ProjectsCard />
-        <ProjectsCard />
-        <ProjectsCard />
-        <ProjectsCard />
+        <ProjectsCard
+          title="E-commerce Website"
+          des="Lorem, ipsum dolor sit amet consectetur adidossing 
+          elit Explicabo qisnsn voludptate sopiente.volutpiotinsus jafrum quidem!"
+          src={projectTwo}
+        />
+        <ProjectsCard
+          title="Chatting App"
+          des="Lorem, ipsum dolor sit amet consectetur adidossing 
+          elit Explicabo qisnsn voludptate sopiente.volutpiotinsus jafrum quidem!"
+          src={projectThree}
+        />
+        <ProjectsCard
+          title="SOCIAL MEDIA CLONE"
+          des="Lorem, ipsum dolor sit amet consectetur adidossing 
+          elit Explicabo qisnsn voludptate sopiente.volutpiotinsus jafrum quidem!"
+          src={projectThree}
+        />
+        <ProjectsCard
+          title="E-Commerce Website"
+          des="Lorem, ipsum dolor sit amet consectetur adidossing 
+          elit Explicabo qisnsn voludptate sopiente.volutpiotinsus jafrum quidem!"
+          src={projectOne}
+        />
+        <ProjectsCard
+          title="Chatting App"
+          des="Lorem, ipsum dolor sit amet consectetur adidossing 
+          elit Explicabo qisnsn voludptate sopiente.volutpiotinsus jafrum quidem!"
+          src={projectTwo}
+        />
       </div>
     </section>
   );
