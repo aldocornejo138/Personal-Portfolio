@@ -24,7 +24,11 @@ const Resume = () => {
               setExperienceData(false) &
               setAchievementData(false)
             }
-            className="resumeLi"
+            className={`${
+              educationData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
           >
             Education{" "}
           </li>
@@ -35,7 +39,9 @@ const Resume = () => {
               setExperienceData(false) &
               setAchievementData(false)
             }
-            className="resumeLi"
+            className={`${
+              skillData ? "border-designColor rounded-lg" : "border-transparent"
+            } resumeLi`}
           >
             Professional Skills
           </li>
@@ -46,7 +52,11 @@ const Resume = () => {
               setExperienceData(true) &
               setAchievementData(false)
             }
-            className="resumeLi"
+            className={`${
+              experienceData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
           >
             Experience
           </li>
@@ -57,7 +67,11 @@ const Resume = () => {
               setExperienceData(false) &
               setAchievementData(true)
             }
-            className="resumeLi"
+            className={`${
+              achievementData
+                ? "border-designColor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
           >
             Achievements{" "}
           </li>
@@ -66,7 +80,7 @@ const Resume = () => {
       {educationData && <Education />}
       {skillData && <Skills />}
       {experienceData && <Experience />}
-      {Achievement && <Achievement />}
+      {achievementData && <Achievement />}
       {/* <Education /> */}
       {/* <Skills /> */}
       {/* <Experience /> */}
