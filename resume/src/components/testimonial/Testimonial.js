@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 import { RiStarFill } from "react-icons/ri";
 import { HiArrowRight, HiArrowLeft } from "react-icons/hi";
@@ -67,7 +67,7 @@ const Testimonial = () => {
     customPaging: (i) => (
       <div
         style={
-          i == dotActive
+          i === dotActive
             ? {
                 width: "12px",
                 height: "12px",
