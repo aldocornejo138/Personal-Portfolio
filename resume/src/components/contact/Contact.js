@@ -22,7 +22,7 @@ const Contact = () => {
   const handleSend = (e) => {
     e.preventDefault();
     if (username === "") {
-      setErrMsg("Username is required!");
+      setErrMsg("Username is required!!");
     } else if (phoneNumber === "") {
       setErrMsg("Phone number is required!");
     } else if (email === "") {
