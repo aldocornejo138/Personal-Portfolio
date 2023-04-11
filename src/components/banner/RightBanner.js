@@ -1,7 +1,6 @@
 import React from "react";
 import { bannerImg } from "../../assets/index";
 import { useInView } from "react-intersection-observer";
-import { useRef, useEffect, useState } from "react";
 
 const RightBanner = () => {
   const { ref, inView } = useInView({
@@ -14,13 +13,13 @@ const RightBanner = () => {
     >
       {inView ? (
         <img
-          className="hiddenReveal w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
+          className="revealRight w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
           src={bannerImg}
           alt="bannerImg"
         />
       ) : (
         <img
-          className="show w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
+          className="hideRight  w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
           src={bannerImg}
           alt="bannerImg"
         />
