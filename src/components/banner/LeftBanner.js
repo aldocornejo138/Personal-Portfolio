@@ -21,9 +21,9 @@ export const LeftBanner = () => {
     triggerOnce: false,
   });
   return (
-    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
-      <div ref={ref} className="flex flex-col gap-5">
-        {inView ? (
+    <div ref={ref} className="w-full lgl:w-1/2 flex flex-col gap-5">
+      {inView ? (
+        <div>
           <div className=" revealAbove flex flex-col gap-5">
             <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
             <h1 className="text-6xl font-bold text-white">
@@ -38,14 +38,53 @@ export const LeftBanner = () => {
                 cursorColor="#ff014f"
               />
             </h2>
-            <p className="text-base font-bodyFont leading-6 tracking-wide">
+            <p className="text-base font-bodyFont leading-6 tracking-wide mb-10 lgl:mb-20">
               I use animation as a third dimension by which to simplify
               experiences and kuiding thro each and every interaction. I'm not
               adding motion just to spruce things up, but doing it in ways that.
             </p>
           </div>
-        ) : (
-          <div className=" hideAbove flex flex-col gap-5">
+          <div className="revealLeft flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+            <div>
+              <h2 className="text-base uppercase font-titleFont mb-4">
+                Find me in
+              </h2>
+              <div className="flex gap-4 mb-4 lgl:mb-6">
+                <span className="bannerIcon">
+                  <FaFacebookF />
+                </span>
+                <span className="bannerIcon">
+                  <FaTwitter />
+                </span>
+                <span className="bannerIcon">
+                  <FaLinkedinIn />
+                </span>
+              </div>
+            </div>
+            <div>
+              <h2 className="text-base uppercase font-titleFont mb-4">
+                BEST SKILL ON
+              </h2>
+              <div className="flex gap-4 lgl:mb-6">
+                <span className="bannerIcon">
+                  <FaReact />
+                </span>
+                <span className="bannerIcon">
+                  <SiNextdotjs />
+                </span>
+                <span className="bannerIcon">
+                  <SiTailwindcss />
+                </span>
+                <span className="bannerIcon">
+                  <SiFigma />
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div>
+          <div className="hideAbove flex flex-col gap-5">
             <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
             <h1 className="text-6xl font-bold text-white">
               Hi, I'm{" "}
@@ -65,16 +104,12 @@ export const LeftBanner = () => {
               adding motion just to spruce things up, but doing it in ways that.
             </p>
           </div>
-        )}
-      </div>
-      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
-        <div ref={ref}>
-          {inView ? (
-            <div className="revealLeft">
+          <div className=" hideLeft flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
+            <div>
               <h2 className="text-base uppercase font-titleFont mb-4">
-                FIND ME IN
+                Find me in
               </h2>
-              <div className="flex gap-4 lgl:mb-6">
+              <div className="flex gap-4">
                 <span className="bannerIcon">
                   <FaFacebookF />
                 </span>
@@ -86,28 +121,7 @@ export const LeftBanner = () => {
                 </span>
               </div>
             </div>
-          ) : (
-            <div className="hideLeft">
-              <h2 className="text-base uppercase font-titleFont mb-4">
-                FIND ME IN
-              </h2>
-              <div className="flex gap-4 lgl:mb-6">
-                <span className="bannerIcon">
-                  <FaFacebookF />
-                </span>
-                <span className="bannerIcon">
-                  <FaTwitter />
-                </span>
-                <span className="bannerIcon">
-                  <FaLinkedinIn />
-                </span>
-              </div>
-            </div>
-          )}
-        </div>
-        <div ref={ref}>
-          {inView ? (
-            <div className="revealLeft">
+            <div>
               <h2 className="text-base uppercase font-titleFont mb-4">
                 BEST SKILL ON
               </h2>
@@ -126,29 +140,9 @@ export const LeftBanner = () => {
                 </span>
               </div>
             </div>
-          ) : (
-            <div className="hideLeft">
-              <h2 className="text-base uppercase font-titleFont mb-4">
-                BEST SKILL ON
-              </h2>
-              <div className="flex gap-4">
-                <span className="bannerIcon">
-                  <FaReact />
-                </span>
-                <span className="bannerIcon">
-                  <SiNextdotjs />
-                </span>
-                <span className="bannerIcon">
-                  <SiTailwindcss />
-                </span>
-                <span className="bannerIcon">
-                  <SiFigma />
-                </span>
-              </div>
-            </div>
-          )}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 };
