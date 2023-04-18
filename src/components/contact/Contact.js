@@ -30,7 +30,7 @@ const Contact = () => {
   const emailValidation = () => {
     return String(user_email)
       .toLocaleLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
+      .match(/^\w+([.-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
   // ========== Email Validation end here ================
 
@@ -52,6 +52,7 @@ const Contact = () => {
       setSuccessMsg(
         `Thank you ${user_name}, Your Message has been sent Successfully!`
       );
+      sendEmail(e);
       setErrMsg("");
       setUsername("");
       setPhoneNumber("");
@@ -130,6 +131,7 @@ const Contact = () => {
                       <input
                         onChange={(e) => setPhoneNumber(e.target.value)}
                         value={phoneNumber}
+                        name="phoneNumber"
                         className={`${
                           errMsg === "Phone number is required!" &&
                           "outline-designColor"
@@ -159,6 +161,7 @@ const Contact = () => {
                     </p>
                     <input
                       onChange={(e) => setSubject(e.target.value)}
+                      name="subject"
                       value={subject}
                       className={`${
                         errMsg === "Plese give your Subject!" &&
@@ -185,7 +188,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full">
                     <button
-                      onClick={sendEmail}
+                      onClick={handleSend}
                       className=" w-full h-12 bg-[#141518] rounded-lg text-base
                 text-gray-400 tracking-wider uppercase hove:text-white duration-300
                 hover:border-[1px] hover:border-designColor border-transparent"
