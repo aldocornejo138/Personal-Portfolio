@@ -39,9 +39,15 @@ export const LeftBanner = () => {
               />
             </h2>
             <p className="text-base font-bodyFont leading-6 tracking-wide mb-10 lgl:mb-20">
-              I use animation as a third dimension by which to simplify
-              experiences and kuiding thro each and every interaction. I'm not
-              adding motion just to spruce things up, but doing it in ways that.
+              I am a full stack developer with skills in UI design and SDET
+              (Software Development Engineer in Test) who can handle both the
+              front-end and back-end of web development, design appealing and
+              user-friendly interfaces, and write automated tests to ensure
+              software quality. I am versatile and can handle various aspects of
+              software development, from planning and designing to testing and
+              deployment.I have a solid understanding of web technologies,
+              programming languages, and software development methodologies,
+              making them valuable assets to any tech team.
             </p>
           </div>
           <div className="revealLeft flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">

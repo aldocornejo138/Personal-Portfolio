@@ -25,37 +25,37 @@ const Features = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
               <Card
                 title="Business Strategy"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic conseqununat repelllends ad."
+                des=" With Software Development Lifecycle can effectively communicate
+                 with stakeholders, developers, and designers to meet business goals."
               />
               <Card
                 title="App Development"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic conseqununat repelllends ad."
+                des="  A service for providing end-to-end solutions, from ideation to deployment, for 
+                building custom software applications."
                 icon={<AiFillAppstore />}
               />
               <Card
                 title="SEO Optimization"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic conseqununat repelllends ad."
+                des="Analyzation, Optimization, and improving website content, structure, and technical 
+                aspects to increase visibility, traffic, and rankings."
                 icon={<SiProgress />}
               />
               <Card
-                title="Mobile Development"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic conseqununat repelllends ad."
+                title="Web Development"
+                des="Designing, developing, and launching websites that meet business and user needs, 
+                leveraging a variety of front-end and back-end technologies."
                 icon={<FaMobile />}
               />
               <Card
                 title="UX Design"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic conseqununat repelllends ad."
+                des="Creating intuitive and user-centered design solutions for software applications 
+                or websites, leveraging analysis and prototyping techniques. "
                 icon={<SiAntdesign />}
               />
               <Card
-                title="Hosting Websites"
-                des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic conseqununat repelllends ad."
+                title="Hosting Services"
+                des="Providing the infrastructure, storage, and support necessary to host websites and 
+                web applications, ensuring high uptime, security, and performance."
                 icon={<FaGlobe />}
               />
             </div>
