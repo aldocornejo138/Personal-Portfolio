@@ -10,7 +10,7 @@ const Resume = () => {
   const [skillData, setSkillData] = useState(false);
   const [experienceData, setExperienceData] = useState(false);
   const { ref, inView } = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     delay: 100,
   });
 

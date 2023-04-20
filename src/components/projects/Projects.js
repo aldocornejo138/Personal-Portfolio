@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 
 const Projects = () => {
   const { ref, inView } = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
     delay: 100,
   });
   return (
