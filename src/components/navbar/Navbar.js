@@ -2,9 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { logo } from "../../assets/index";
 import { navLinksdata } from "../../constants";
+
+const instagramUrl = "https://www.instagram.com/aldo_cornejo/";
+const linkedinUrl =
+  "https://www.linkedin.com/in/aldahir-cornejo-ambriz-729276249/";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -75,15 +79,16 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <a href={instagramUrl} target="_blank" rel="noreferrer">
+                    <span className="bannerIcon">
+                      <FaInstagram />
+                    </span>
+                  </a>
+                  <a href={linkedinUrl} target="_blank" rel="noreferrer">
+                    <span className="bannerIcon">
+                      <FaLinkedinIn />
+                    </span>
+                  </a>
                 </div>
               </div>
               <span
