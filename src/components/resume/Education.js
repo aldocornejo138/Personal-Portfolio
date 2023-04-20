@@ -56,7 +56,7 @@ const Education = () => {
         >
           <ResumeCard
             title="Full Stack Developer"
-            subTitle="Independent FreeLance (2023-Present)"
+            subTitle="Independent FreeLance Work (2023-Present)"
             result="USA"
             des="The Training provided by universities in order to prepare people to work 
           in various sectors of the economy or areas of culture."

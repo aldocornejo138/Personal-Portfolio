@@ -1,8 +1,18 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaReact,
+  FaInstagram,
+} from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
+
+const instagramUrl = "https://www.instagram.com/aldo_cornejo/";
+const linkedinUrl =
+  "https://www.linkedin.com/in/aldahir-cornejo-ambriz-729276249/";
 
 export const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -56,15 +66,16 @@ export const LeftBanner = () => {
                 Find me in
               </h2>
               <div className="flex gap-4 mb-4 lgl:mb-6">
-                <span className="bannerIcon">
-                  <FaFacebookF />
-                </span>
-                <span className="bannerIcon">
-                  <FaTwitter />
-                </span>
-                <span className="bannerIcon">
-                  <FaLinkedinIn />
-                </span>
+                <a href={instagramUrl} target="_blank" rel="noreferrer">
+                  <span className="bannerIcon">
+                    <FaInstagram />
+                  </span>
+                </a>
+                <a href={linkedinUrl} target="_blank" rel="noreferrer">
+                  <span className="bannerIcon">
+                    <FaLinkedinIn />
+                  </span>
+                </a>
               </div>
             </div>
             <div>
