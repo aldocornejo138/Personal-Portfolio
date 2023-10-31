@@ -16,12 +16,7 @@ const linkedinUrl =
 
 export const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: [
-      "Software Developer.",
-      "Full Stack Developer.",
-      "UI Designer.",
-      "Software Test Engineer.",
-    ],
+    words: ["Software Dev.", "UI Designer.", "QA Test Dev.", "FullStackDev."],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
