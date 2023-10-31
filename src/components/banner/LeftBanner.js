@@ -23,7 +23,7 @@ export const LeftBanner = () => {
     delaySpeed: 2000,
   });
   const { ref, inView } = useInView({
-    triggerOnce: false,
+    triggerOnce: true,
   });
   return (
     <div ref={ref} className="w-full lgl:w-1/2 flex flex-col gap-5">
