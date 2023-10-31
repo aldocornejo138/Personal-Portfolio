@@ -13,13 +13,13 @@ const RightBanner = () => {
     >
       {inView ? (
         <img
-          className="revealRight w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
+          className="zoomInRight w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
           src={bannerImg}
           alt="bannerImg"
         />
       ) : (
         <img
-          className="hideRight  w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
+          className="zoomOutRight  w-[300px] h-[400px] lgl:w-[500px] lgl:h-[680px] z-10"
           src={bannerImg}
           alt="bannerImg"
         />

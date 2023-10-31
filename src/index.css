@@ -78,3 +78,78 @@
   transition: all 3s;
   transform: translateY(0%);
 }
+
+.zoomInLeft {
+  transform: translateX(0) scale(1);
+  animation: zoomInLeft 2.5s ease-in-out;
+  opacity: 1;
+  overflow-x: hidden;
+}
+
+@keyframes zoomInLeft {
+  0% {
+    transform: translateX(-20%) scale(0.95);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+.zoomOutLeft {
+  transform: translateX(-20%) scale(0.95);
+  animation: zoomOutLeft 3s ease-in-out;
+  opacity: 0;
+  overflow-x: hidden;
+}
+
+@keyframes zoomOutLeft {
+  0% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-20%) scale(0.95);
+    opacity: 0;
+  }
+}
+.zoomInRight {
+  transform: translateX(0) scale(1);
+  animation: zoomInRight 2.5s ease-in-out;
+  opacity: 1;
+  overflow-x: hidden;
+}
+
+@keyframes zoomInRight {
+  0% {
+    transform: translateX(20%) scale(0.95);
+    opacity: 0;
+    overflow-x: hidden;
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    overflow-x: hidden;
+  }
+}
+.zoomOutRight {
+  transform: translateX(20%) scale(0.95);
+  animation: zoomOutRight 3s ease-in-out;
+  opacity: 0;
+  overflow-x: hidden;
+}
+
+@keyframes zoomOutRight {
+  0% {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(20%) scale(0.95);
+    opacity: 0;
+  }
+}
