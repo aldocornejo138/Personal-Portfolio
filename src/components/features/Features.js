@@ -20,7 +20,7 @@ const Features = () => {
     >
       <div>
         {inView ? (
-          <div className="visible">
+          <div className="zoomIn">
             <Title title="Features" des="What I Do" />
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
               <Card
@@ -61,7 +61,7 @@ const Features = () => {
             </div>
           </div>
         ) : (
-          <div className="nonVisible">
+          <div className="zoomOut">
             <Title title="Features" des="What I Do" />
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
               <Card
