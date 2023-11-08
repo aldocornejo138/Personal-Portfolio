@@ -26,13 +26,13 @@ const Projects = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 ">
               <ProjectsCard
-                title="SOCIAL MEDIA CLONE"
-                des=""
+                title="Ivan Fountain Service"
+                des="Landing Page"
                 src={projectOne}
               />
               <ProjectsCard
-                title="E-commerce Website"
-                des=""
+                title="Hecho Por Jenny"
+                des="E-Commerce Website"
                 src={projectTwo}
               />
               <ProjectsCard title="Chatting App" des="" src={projectThree} />
