@@ -29,24 +29,44 @@ const Projects = () => {
                 title="Ivan Fountain Service"
                 des="Landing Page"
                 src={projectOne}
+                link="https://ivanfountainservice.com/"
+                githubLink="https://github.com/aldocornejo138/ivan_fountain_service"
               />
               <ProjectsCard
                 title="Hecho Por Jenny"
                 des="E-Commerce Website"
                 src={projectTwo}
-              />
-              <ProjectsCard title="Chatting App" des="" src={projectThree} />
-              <ProjectsCard
-                title="SOCIAL MEDIA CLONE"
-                des=""
-                src={projectThree}
+                link="https://hecho-por-jenny.vercel.app/"
+                githubLink="https://github.com/aldocornejo138/hecho.por.jenny"
               />
               <ProjectsCard
-                title="E-Commerce Website"
-                des=""
+                title="Ivan Fountain Service"
+                des="Landing Page"
                 src={projectOne}
+                link="https://ivanfountainservice.com/"
+                githubLink="https://github.com/aldocornejo138/ivan_fountain_service"
               />
-              <ProjectsCard title="Chatting App" des="" src={projectTwo} />
+              <ProjectsCard
+                title="Hecho Por Jenny"
+                des="E-Commerce Website"
+                src={projectTwo}
+                link="https://hecho-por-jenny.vercel.app/"
+                githubLink="https://github.com/aldocornejo138/hecho.por.jenny"
+              />
+              <ProjectsCard
+                title="Ivan Fountain Service"
+                des="Landing Page"
+                src={projectOne}
+                link="https://ivanfountainservice.com/"
+                githubLink="https://github.com/aldocornejo138/ivan_fountain_service"
+              />
+              <ProjectsCard
+                title="Hecho Por Jenny"
+                des="E-Commerce Website"
+                src={projectTwo}
+                link="https://hecho-por-jenny.vercel.app/"
+                githubLink="https://github.com/aldocornejo138/hecho.por.jenny"
+              />
             </div>
           </div>
         ) : (
