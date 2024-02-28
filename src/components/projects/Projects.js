@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 ">
               <ProjectsCard
                 title="YourPersonalWebDev.com"
-                des="Agency"
+                des="My Agency"
                 src={projectFour}
                 link="https://yourpersonalwebdev.vercel.app/"
                 githubLink="https://github.com/aldocornejo138/yourPersonalWebDev"
