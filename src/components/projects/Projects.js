@@ -1,6 +1,11 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import {
+  projectOne,
+  projectTwo,
+  projectThree,
+  projectFour,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import { useInView } from "react-intersection-observer";
 
@@ -25,6 +30,13 @@ const Projects = () => {
               />
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 ">
+              <ProjectsCard
+                title="YourPersonalWebDev.com"
+                des="Agency"
+                src={projectFour}
+                link="https://yourpersonalwebdev.vercel.app/"
+                githubLink="https://github.com/aldocornejo138/yourPersonalWebDev"
+              />
               <ProjectsCard
                 title="Ivan Fountain Service"
                 des="Landing Page"
