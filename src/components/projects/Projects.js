@@ -34,7 +34,7 @@ const Projects = () => {
                 title="YourPersonalWebDev.com"
                 des="My Agency"
                 src={projectFour}
-                link="https://yourpersonalwebdev.vercel.app/"
+                link="https://yourpersonalwebdev.com/"
                 githubLink="https://github.com/aldocornejo138/yourPersonalWebDev"
               />
               <ProjectsCard
