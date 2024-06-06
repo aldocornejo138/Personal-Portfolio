@@ -31,11 +31,11 @@ const Projects = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 ">
               <ProjectsCard
-                title="YourPersonalWebDev.com"
+                title="SEODevLeads.com"
                 des="My Agency"
                 src={projectFour}
-                link="https://yourpersonalwebdev.com/"
-                githubLink="https://github.com/aldocornejo138/yourPersonalWebDev"
+                link="https://www.seodevleads.com/"
+                githubLink="https://github.com/aldocornejo138/"
               />
               <ProjectsCard
                 title="Ivan Fountain Service"
