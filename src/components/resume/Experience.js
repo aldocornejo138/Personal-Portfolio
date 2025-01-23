@@ -21,25 +21,22 @@ const Experience = () => {
       border-opacity-30 flex flex-col gap-10"
         >
           <ResumeCard
-            title="Full Stack Developer"
-            subTitle="Independent FreeLance (2023-Present)"
+            title="Founder and Lead Developer"
+            subTitle="SEODevLeads.com"
             result="USA"
-            des="The Training provided by universities in order to prepare people to work 
-          in various sectors of the economy or areas of culture."
+            des="Built custom websites using Next.js, optimizing performance and SEO to deliver fast, responsive, and search-engine-friendly solutions."
           />
           <ResumeCard
-            title="Front End Developer"
-            subTitle="LPL Financial (2022-Present)"
+            title="Full Stack Software Developer"
+            subTitle="Independent FreeLance (2022-Present)"
             result="USA"
-            des="Higher education is tertiary education leading to award of an academic 
-          degree. Higher Education, also called post-secondary education"
+            des="I build and maintain scalable web applications, developing both front-end and back-end systems to deliver seamless user experiences."
           />
           <ResumeCard
             title="Software Developer Engineer in Test"
-            subTitle="TechBee Solutions (2020-2022)"
+            subTitle="TechBee Solutions (2021-2023)"
             result="USA"
-            des="Secondary Education or post-primary education covers two phases on the 
-          International Standard Classification of Education scale"
+            des="Built automation frameworks, optimize testing, integrate CI/CD, and enhance software quality."
           />
         </div>
       </div>
