@@ -5,6 +5,7 @@ import {
   projectTwo,
   projectThree,
   projectFour,
+  projectFive,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import { useInView } from "react-intersection-observer";
@@ -32,8 +33,8 @@ const Projects = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14 ">
               <ProjectsCard
                 title="SEODevLeads.com"
-                des="My Agency"
-                src={projectFour}
+                des="Agency"
+                src={projectThree}
                 link="https://www.seodevleads.com/"
                 githubLink="https://github.com/aldocornejo138/"
               />
@@ -50,6 +51,20 @@ const Projects = () => {
                 src={projectTwo}
                 link="https://hecho-por-jenny.vercel.app/"
                 githubLink="https://github.com/aldocornejo138/hecho.por.jenny"
+              />
+              <ProjectsCard
+                title="Element pools and Spa"
+                des="Luxury Pool Page"
+                src={projectFour}
+                link="https://poolsdemo.vercel.app/"
+                githubLink="https://github.com/aldocornejo138/"
+              />
+              <ProjectsCard
+                title="Ayala Landscaping"
+                des="Luxury Landscaping Business"
+                src={projectFive}
+                link="https://ayala-landscaping.vercel.app/"
+                githubLink="https://github.com/aldocornejo138/"
               />
             </div>
           </div>
